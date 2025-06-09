@@ -5,7 +5,7 @@
 | id                 |              | serial     | PRIMARY KEY |
 | name               | VARCHAR(20)  | NOT NULL   |             |
 | km                 | MEDIUMINT    |            |             |
-| price              | MEDIUMINT    |            |             |
+| price              | FLOAT (6,2)  |            |             |
 | model              | VARCHAR(20)  |            |             |
 | fuel_type          | VARCHAR(15)  |            |             |
 | gear_box           | VARCHAR(15)  |            |             |
